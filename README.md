@@ -7,3 +7,7 @@ use mobx to play todomvc
 * mobx
 * sementic-ui-react
 * grid css
+
+## USAGE
+
+* yarn start

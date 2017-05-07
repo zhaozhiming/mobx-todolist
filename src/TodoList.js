@@ -44,7 +44,7 @@ class TodoList extends Component {
     const todos = this.filterTodo(store.filter, store.todos);
     return (
       <div className="TodoList-container">
-        <div>
+        <div className="TodoList-top">
           <Input
             type="text"
             value={store.todo}
@@ -72,7 +72,7 @@ class TodoList extends Component {
             ))}
           </List>
         </div>
-        <Divider />
+        <Divider className="TodoList-divider" />
         <div className="TodoList-footer">
           <div>
             {this.renderFilters(store)}
